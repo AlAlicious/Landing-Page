@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: #1F2937;
+    /* display: flex; */
+}
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+h4 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button {
+    border-radius: 7px;
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 20px;
+    font-weight: bold;
+    border: 0px;
+}
