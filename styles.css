@@ -15,6 +15,8 @@ body {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
+    padding: 20px 0px;
+    color: #E5E7EB;
 }
 h1 {
     font-size: 48px;
@@ -58,8 +60,19 @@ button {
     display: flex;
     
 }
-img {
-    
+.text-middle {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    margin: 20px 0px;
+}
+.boxes img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 7px;
+    border: solid 3px #3882F6;
 }
 .header-links p {
     padding: 0px 10px;
@@ -71,4 +84,31 @@ img {
 }
 .boxes p {
     max-width: 150px;
+    text-align: center;
+}
+.boxes div {
+    margin: 0px 20px 200px 20px;
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    
+}
+.quote div {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 800px;
+    
+}
+.thor {
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.quote div p {
+    margin: 0px;
 }
