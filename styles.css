@@ -3,12 +3,18 @@ body {
     flex-direction: column;
     margin: 0px;
     box-sizing: border-box;
+    justify-content: space-between;
 }
 .header {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
     padding: 0px 400px;
+}
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
 }
 h1 {
     font-size: 48px;
@@ -21,7 +27,8 @@ h4 {
     color: #F9FAF8;
     margin: 0px;
 }
-p {
+.header-links p,
+.header-middle p {
     font-size: 18px;
     color: #E5E7EB;
     margin: 0px;
@@ -56,4 +63,12 @@ img {
 }
 .header-links p {
     padding: 0px 10px;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    
+}
+.boxes p {
+    max-width: 150px;
 }
