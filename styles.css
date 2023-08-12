@@ -29,12 +29,13 @@ h4 {
     color: #F9FAF8;
     margin: 0px;
 }
-.header-links p,
+.header-links a,
 .header-middle p {
     font-size: 18px;
     color: #E5E7EB;
     margin: 0px;
     max-width: 400px;
+    text-decoration: none;
 }
 button {
     border-radius: 7px;
@@ -74,7 +75,7 @@ button {
     border-radius: 7px;
     border: solid 3px #3882F6;
 }
-.header-links p {
+.header-links a {
     padding: 0px 10px;
 }
 .boxes {
@@ -111,4 +112,26 @@ button {
 }
 .quote div p {
     margin: 0px;
+}
+.big-button {
+    margin: 150px 400px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+    padding: 50px 100px;
+    align-content: center;
+}
+.big-button div button {
+    border: solid 2px #F9FAF8;
+    color: #F9FAF8;
+}
+h5 {
+    font-size: 24px;
+    margin: 0px;
+    color: #F9FAF8;
+}
+.big-button div p {
+    margin: 0px;
+    color: #F9FAF8;
 }
